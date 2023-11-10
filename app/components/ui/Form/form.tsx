@@ -19,6 +19,7 @@ const Form: React.FC = () => {
         type="text"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
+        className="border rounded text-black focus:outline-none focus:border-blue-300 px-2 py-1"
       />
       <Button onClick={handleAddClick}>Adicionar</Button>
     </div>
