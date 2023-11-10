@@ -11,7 +11,7 @@ const Input: React.FC<InputProps> = ({ value, onChange }) => {
       type="text"
       value={value}
       onChange={(e) => onChange(e.target.value)}
-      className="border rounded px-2 py-1 focus:outline-none focus:border-blue-500"
+      className="border rounded px-2 py-1 focus:border-blue-300 text-black"
     />
   );
 };
